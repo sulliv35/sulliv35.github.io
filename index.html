@@ -1,0 +1,32 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="stats.js"></script>
+</head>
+
+<body>
+<h1>LoL Friend Stats</h1>
+<div>Enter summoner name:</div>
+<input type="text" id="name">
+<div>Enter friend's summor name:</div>
+<input type="text" id="friend">
+<div>Region:</div>
+<select name="regions" id="region">
+  <option value="BR">BR</option>
+  <option value="EUNE">EUNE</option>
+  <option value="EUW">EUW</option>
+  <option value="JP">JP</option>
+  <option value="KR">KR</option>
+  <option value="LAN">LAN</option>
+  <option value="LAS">LAS</option>
+  <option selected="selected" value="NA">NA</option>
+  <option value="OCE">OCE</option>
+  <option value="RU">RU</option>
+  <option value="TR">TR</option>
+</select>
+<button type="button" id="submitButton">Submit</button>
+<div id="gamesPlayed"></div>
+<div id="winPercent"></div>
+
+</body>
+</html>
